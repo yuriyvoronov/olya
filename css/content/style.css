@@ -1,0 +1,27 @@
+.content-boards {
+  background-color: #ecf0f4;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  padding: 5px 10px;
+  background-color: #ecf0f4;
+  height: 50px;
+  align-items: center; }
+  .content-boards a {
+    color: #f58967;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px;
+    display: block;
+    text-decoration: none;
+    font-family: OpenSansRegular, 'Segoe UI', Arial; }
+    .content-boards a:hover {
+      background: #fff;
+      border-radius: 8px; }
+
+.content-cardboard {
+  background: #f4f8fb;
+  height: 100%; }

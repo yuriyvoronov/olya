@@ -1,0 +1,9 @@
+{
+  "name": "olya",
+  "dependencies": {
+    "jquery-ui": "^1.12.1",
+    "jquery": "^3.3.1",
+    "normalize-css": "8.0.0",
+    "flexboxgrid": "https://github.com/kristoferjoseph/flexboxgrid.git#^6.3.2"
+  }
+}

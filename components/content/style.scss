@@ -1,0 +1,38 @@
+.content
+{
+    &-boards
+    {
+    background-color: rgb(236, 240, 244);
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 5px 10px;
+    background-color: rgb(236, 240, 244);
+    height: 50px;
+    align-items: center;
+        
+        a
+        {
+            color: rgb(245, 137, 103);
+            padding: 10px 15px;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 16px;
+            display: block;
+            text-decoration: none;
+            font-family: OpenSansRegular, 'Segoe UI', Arial;
+        &:hover
+            {
+                background: #fff;
+                border-radius: 8px;
+            }
+        }
+    }
+     &-cardboard
+    {
+        background: #f4f8fb;
+        height: 100%;
+    }
+}
