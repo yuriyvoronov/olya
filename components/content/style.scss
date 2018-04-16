@@ -1,5 +1,6 @@
 .content
 {
+	width: 100%;
     &-boards
     {
     background-color: rgb(236, 240, 244);
@@ -47,15 +48,39 @@
 			
 			h3
 			{
+				color: #585d6c;
+				font-family: OpenSansRegular, 'Segoe UI', Arial;
+				font-weight: 400;
+				font-size: 16px;
 				display: inline-block;
+				margin-left: 10px;
+				width: calc(70% - 100px);
 			}
-			i
+			&__star
 			{
+				color: rgb(117, 177, 187);
+				font-size: 23px;
 				display: inline-block;
+				margin-left: 10px;
 			}
 			span
 			{
+				background: rgb(164, 167, 175);
+				padding: 5px;
+				border-radius: 100px;
+				font-size: 12px;
+				color: #fff;
 				display: inline-block;
+			}
+			&__drop
+			{
+				color: rgb(117, 177, 187);
+				float: right;
+				display: inline-block;
+				position: relative;
+				top:8px;
+				right: 7px;
+				font-size: 18px;
 			}
 			margin: 10px;
 		}

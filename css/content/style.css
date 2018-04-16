@@ -1,43 +1,65 @@
-.content-boards {
-  background-color: #ecf0f4;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  padding: 5px 10px;
-  background-color: #ecf0f4;
-  height: 50px;
-  align-items: center; }
-  .content-boards a {
-    color: #f58967;
-    padding: 10px 15px;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 16px;
-    display: block;
-    text-decoration: none;
-    font-family: OpenSansRegular, 'Segoe UI', Arial; }
-    .content-boards a:hover {
-      background: #fff;
-      border-radius: 8px; }
-
-.content-cardboard {
-  background: #f4f8fb;
-  height: 100%;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex; }
-
-.content-card {
-  background: #fff;
-  border-radius: 8px;
-  margin: 10px; }
-  .content-card h3 {
-    display: inline-block; }
-  .content-card i {
-    display: inline-block; }
-  .content-card span {
-    display: inline-block; }
+.content {
+  width: 100%; }
+  .content-boards {
+    background-color: #ecf0f4;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    padding: 5px 10px;
+    background-color: #ecf0f4;
+    height: 50px;
+    align-items: center; }
+    .content-boards a {
+      color: #f58967;
+      padding: 10px 15px;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 16px;
+      display: block;
+      text-decoration: none;
+      font-family: OpenSansRegular, 'Segoe UI', Arial; }
+      .content-boards a:hover {
+        background: #fff;
+        border-radius: 8px; }
+  .content-cardboard {
+    background: #f4f8fb;
+    height: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex; }
+  .content-card {
+    background: #fff;
+    border-radius: 8px;
+    margin: 10px; }
+    .content-card h3 {
+      color: #585d6c;
+      font-family: OpenSansRegular, 'Segoe UI', Arial;
+      font-weight: 400;
+      font-size: 16px;
+      display: inline-block;
+      margin-left: 10px;
+      width: calc(70% - 100px); }
+    .content-card__star {
+      color: #75b1bb;
+      font-size: 23px;
+      display: inline-block;
+      margin-left: 10px; }
+    .content-card span {
+      background: #a4a7af;
+      padding: 5px;
+      border-radius: 100px;
+      font-size: 12px;
+      color: #fff;
+      display: inline-block; }
+    .content-card__drop {
+      color: #75b1bb;
+      float: right;
+      display: inline-block;
+      position: relative;
+      top: 8px;
+      right: 7px;
+      font-size: 18px; }
