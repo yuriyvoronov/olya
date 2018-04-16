@@ -47,7 +47,8 @@ header
         {
             color: #a4a7af;
             font-size: 12px; 
-            
+            float: right;
+			
             img
             {
                 height: 45px;
@@ -63,6 +64,7 @@ header
     }
     &-drop-menu
     {
+		display: none;
         position: absolute;
         background: #fff;
         box-shadow: 0 3px 10px 0 rgba(46,51,58,.19);
@@ -118,4 +120,8 @@ header
                 border-bottom: 1px dashed #d6dcdf;
         }
     }
+}
+.enabled
+{
+	display: block;
 }

@@ -3,13 +3,14 @@
 <head>
 
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/flexboxgrid/dist/flexboxgrid.css" />
     <!-- endbower -->
     
-    <link rel="stylesheet" href="css/header/fonts.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/header/style.css">
     <link rel="stylesheet" href="css/content/style.css">
 
@@ -71,10 +72,36 @@
            
             <a href="">First Board</a>
        </div>
-       <div class="content-cardboard col-xs-12">
-           <div class="content-card">
+       <div class="content-cardboard col-xs-12" id="sortable">
+          <div class="col-md-3">
+          	
+           <div class="content-card" id="test">
                <div class="content-card-header">
-                   
+                   <i class="far fa-star"></i>
+					<h3>Заголовок</h3>
+					<span></span>
+               </div>
+           </div>
+          </div>
+           <div class="content-card col-md-3" id="test">
+               <div class="content-card-header">
+                   <i class="far fa-star"></i>
+					<h3>Заголовок 2</h3>
+					<span></span>
+               </div>
+           </div>
+           <div class="content-card col-md-3" id="test">
+               <div class="content-card-header">
+                   <i class="far fa-star"></i>
+					<h3>Заголовок 2</h3>
+					<span></span>
+               </div>
+           </div>
+           <div class="content-card col-md-3" id="test">
+               <div class="content-card-header">
+                   <i class="far fa-star"></i>
+					<h3>Заголовок 2</h3>
+					<span></span>
                </div>
            </div>
        </div>
@@ -86,5 +113,6 @@
     <script src="bower_components/jquery-ui/jquery-ui.js"></script>
     <!-- endbower -->
     <script src="bower_components/Font-Awesome/svg-with-js/js/fontawesome-all.js"></script>
+    <script src="js/common.js"></script>
 </body>
 </html>

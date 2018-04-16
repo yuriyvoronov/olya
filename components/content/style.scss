@@ -34,5 +34,29 @@
     {
         background: #f4f8fb;
         height: 100%;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
     }
+	&-card
+		{
+			background: #fff;
+			border-radius: 8px;
+			
+			h3
+			{
+				display: inline-block;
+			}
+			i
+			{
+				display: inline-block;
+			}
+			span
+			{
+				display: inline-block;
+			}
+			margin: 10px;
+		}
 }
