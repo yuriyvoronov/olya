@@ -12,7 +12,8 @@ $( function() {
 $( function() {
     $( ".content-card" ).resizable({
 		helper: "ui-resizable-helper",
-    	
+    	animate: true,
+		minHeight: "inherit"
     });
   } );
 $(function(){
