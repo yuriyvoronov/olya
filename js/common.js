@@ -1,10 +1,16 @@
 $( function() {
-    $( "#sortable" ).sortable();
+    $( "#sortable" ).sortable(
+		{ 
+			containment: ".content-cardboard",
+			cancel: ".content-card-main"
+		}
+		
+	);
     
   } );
 
 $( function() {
-    $( "#test" ).resizable({
+    $( ".content-card-main" ).resizable({
       maxHeight: 250,
       maxWidth: 350,
       minHeight: 150,

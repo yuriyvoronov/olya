@@ -30,11 +30,22 @@
     display: -moz-flex;
     display: -ms-flex;
     display: -o-flex;
-    display: flex; }
+    display: flex;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 130px); }
   .content-card {
     background: #fff;
-    border-radius: 8px;
-    margin: 10px; }
+    border-radius: 5px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s; }
+    .content-card:hover {
+      -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.3);
+      transition: all 0.2s; }
     .content-card h3 {
       color: #585d6c;
       font-family: OpenSansRegular, 'Segoe UI', Arial;
@@ -63,3 +74,7 @@
       top: 8px;
       right: 7px;
       font-size: 18px; }
+    .content-card-main {
+      padding: 15px;
+      font-family: OpenSansRegular, 'Segoe UI', Arial;
+      z-index: 15; }
