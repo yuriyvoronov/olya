@@ -24,10 +24,12 @@ header
     height: 70px;
     &-nav
     {
-        
-        
-        color: #a6a7ac;
-       align-items: center;       
+       	color: #a6a7ac;
+       	align-items: center;       
+		&:hover
+		{
+			cursor: pointer;
+		}
         &__icon
         {
             font-size: 28px; 
@@ -84,6 +86,7 @@ header
         right: 45px;
         left:auto;
         top: 60px;
+		z-index: 100;
         &__list
         {
             list-style: none;

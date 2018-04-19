@@ -21,3 +21,16 @@ $(function(){
 		$(".header-drop-menu").toggleClass("enabled");
 	});
 });
+$(function(){
+	$(".header-nav__icon").click(function(){
+		$(".navigation").addClass("navigation-active");
+	});
+	$(".navigation-close__link").click(function(e){
+		e.preventDefault();
+		$('.navigation').removeClass("navigation-active");
+	});
+	$(".navigation-board__item").click(function(e){
+		e.preventDefault();
+		$(".navigation-boards-wrapper").toggleClass("navigation-boards-wrapper-enable");
+	});
+});

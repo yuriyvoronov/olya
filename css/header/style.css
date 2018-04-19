@@ -20,6 +20,8 @@ header {
   .header-nav {
     color: #a6a7ac;
     align-items: center; }
+    .header-nav:hover {
+      cursor: pointer; }
     .header-nav__icon {
       font-size: 28px;
       margin-left: 5px; }
@@ -57,7 +59,8 @@ header {
     list-style: none;
     right: 45px;
     left: auto;
-    top: 60px; }
+    top: 60px;
+    z-index: 100; }
     .header-drop-menu__list {
       list-style: none;
       padding: 0; }
